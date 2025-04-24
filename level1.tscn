@@ -1,5 +1,24 @@
-[gd_scene format=3 uid="uid://blpae04vad2qr"]
+[gd_scene load_steps=2 format=3 uid="uid://blpae04vad2qr"]
+
+[ext_resource type="PackedScene" uid="uid://cp6akspwcbqyp" path="res://platform.tscn" id="1_jwv3a"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Platforms" type="Node" parent="."]
+
+[node name="Node2D" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-607, 323)
+
+[node name="Node2D5" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-351, 323)
+
+[node name="Node2D2" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-543, 323)
+
+[node name="Node2D3" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-479, 323)
+
+[node name="Node2D4" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-415, 323)
