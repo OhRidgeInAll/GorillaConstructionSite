@@ -5,7 +5,9 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s8bxr"]
 size = Vector2(64, 32)
 
-[node name="Node2D" type="RigidBody2D"]
+[node name="Platform" type="RigidBody2D"]
+lock_rotation = true
+freeze = true
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 texture = ExtResource("1_mi635")
