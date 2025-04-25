@@ -15,9 +15,6 @@
 [node name="Node2D" parent="Platforms" instance=ExtResource("1_jwv3a")]
 position = Vector2(-607, 323)
 
-[node name="Node2D5" parent="Platforms" instance=ExtResource("1_jwv3a")]
-position = Vector2(-351, 323)
-
 [node name="Node2D2" parent="Platforms" instance=ExtResource("1_jwv3a")]
 position = Vector2(-543, 323)
 
@@ -26,6 +23,33 @@ position = Vector2(-479, 323)
 
 [node name="Node2D4" parent="Platforms" instance=ExtResource("1_jwv3a")]
 position = Vector2(-415, 323)
+
+[node name="Node2D5" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-351, 323)
+
+[node name="Node2D6" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-287, 319)
+
+[node name="Node2D7" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-223, 315)
+
+[node name="Node2D8" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-159, 311)
+
+[node name="Node2D9" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-95, 307)
+
+[node name="Node2D10" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(-31, 303)
+
+[node name="Node2D11" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(33, 300)
+
+[node name="Node2D12" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(97, 296)
+
+[node name="Node2D13" parent="Platforms" instance=ExtResource("1_jwv3a")]
+position = Vector2(216, 371)
 
 [node name="Node2D" parent="." instance=ExtResource("2_wwpf4")]
 position = Vector2(-557, 275)
