@@ -29,11 +29,13 @@ size_flags_horizontal = 0
 text = "Points: 0"
 
 [node name="WinLabel" type="Label" parent="MarginContainer/HBoxContainer"]
+visible = false
 layout_mode = 2
 size_flags_horizontal = 10
 text = "Winner! Genyo!"
 
 [node name="CenterContainer" type="CenterContainer" parent="MarginContainer"]
+visible = false
 layout_mode = 2
 
 [node name="Panel" type="Panel" parent="MarginContainer/CenterContainer"]
