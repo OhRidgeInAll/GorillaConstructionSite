@@ -1,14 +1,16 @@
 [gd_scene load_steps=3 format=3 uid="uid://cd5rbi7ugjeyo"]
 
+[ext_resource type="Script" uid="uid://cj3c2ursyxgnn" path="res://scenes/ladder.gd" id="1_xb1tl"]
 [ext_resource type="Texture2D" uid="uid://bs7fw8d5ek0uw" path="res://Assets/Ladder.png" id="1_xxwne"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_xxwne"]
-size = Vector2(32, 64)
-
 [node name="Node2D" type="Area2D"]
+script = ExtResource("1_xb1tl")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+texture_filter = 1
+texture_repeat = 2
 texture = ExtResource("1_xxwne")
+region_enabled = true
+region_rect = Rect2(-0.246, 0.007, 32, 16)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("RectangleShape2D_xxwne")
