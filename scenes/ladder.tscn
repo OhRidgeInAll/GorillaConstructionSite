@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://cd5rbi7ugjeyo"]
+
+[ext_resource type="Texture2D" uid="uid://bs7fw8d5ek0uw" path="res://Assets/Ladder.png" id="1_xxwne"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_xxwne"]
+size = Vector2(32, 64)
+
+[node name="Node2D" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_xxwne")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_xxwne")
